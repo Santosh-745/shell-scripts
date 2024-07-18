@@ -1,7 +1,7 @@
 
 !/bin/bash
 
-export SOURCE_DB_URL="postgres://azodha:9VIgWlt0F5DcXpas@development-platform.cbqnd1uwbvzi.us-west-2.rds.amazonaws.com:5432/azodha"
+export SOURCE_DB_URL=""
 
 psql "$SOURCE_DB_URL" -c "\copy (
     select \"sourceApp\", 
